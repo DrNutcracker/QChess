@@ -83,8 +83,11 @@
     <ClInclude Include="Core\Init\IListener.h" />
     <ClInclude Include="Core\Init\InitGLEW.h" />
     <ClInclude Include="Core\Init\WindowInfo.h" />
+    <ClInclude Include="Core\Init\WindowInput.h" />
     <ClInclude Include="Logic\GamePiece.h" />
+    <ClInclude Include="Logic\Player.h" />
     <ClInclude Include="Logic\QuantumPiece.h" />
+    <ClInclude Include="Logic\QuantumPlayer.h" />
     <ClInclude Include="Managers\Models_Manager.h" />
     <ClInclude Include="Rendering\IGameObject.h" />
     <ClInclude Include="Rendering\Models\Model.h" />
@@ -103,6 +106,7 @@
     <ClCompile Include="Core\Init\InitGLEW.cpp" />
     <ClCompile Include="Core\Init\InitGLUT.cpp" />
     <ClCompile Include="Logic\QuantumPiece.cpp" />
+    <ClCompile Include="Logic\QuantumPlayer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Managers\Scene_Manager.cpp" />
     <ClCompile Include="Managers\Shader_Manager.cpp" />

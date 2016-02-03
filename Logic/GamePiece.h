@@ -5,10 +5,10 @@ namespace Logic
 	class GamePiece
 	{
 		public:
-			//virtual ~GamePiece();
+			//virtual ~GamePiece() = 0;
 
-			virtual void update(float deltaTime);
-			virtual void draw();
+			virtual void update(float deltaTime) = 0;
+			virtual void draw() = 0;
 
 			static const int KING = 1;
 			static const int QUEEN = 2;

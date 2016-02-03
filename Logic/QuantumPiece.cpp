@@ -9,6 +9,11 @@ QuantumPiece::QuantumPiece(int pType, int sType, int r, int c)
 	currentType = SUPER_POSITION;
 	row = r;
 	col = c;
+
+	if (primaryType == KING)//make a special case for the king, since it is never in a q-state
+	{
+		currentType = KING;
+	}
 }
 
 QuantumPiece::~QuantumPiece(){}
