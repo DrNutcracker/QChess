@@ -1,0 +1,24 @@
+﻿Build started 2/1/2016 10:07:42 PM.
+     1>Project "C:\Users\drubr_000\Documents\Personal Projects\QChess\QChessVS.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\drubr_000\Documents\Personal Projects\QChess\packages\glm.0.9.7.1\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Logic\QuantumPlayer.cpp
+         QuantumPlayer.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\drubr_000\Documents\Personal Projects\QChess\Debug\QChessVS.exe" /INCREMENTAL /NOLOGO /LIBPATH:Dependencies\freeglut /LIBPATH:Dependencies\glew opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\drubr_000\Documents\Personal Projects\QChess\Debug\QChessVS.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\drubr_000\Documents\Personal Projects\QChess\Debug\QChessVS.lib" /MACHINE:X86 Debug\QChessVS.res
+         Debug\InitGLEW.obj
+         Debug\InitGLUT.obj
+         Debug\QuantumPiece.obj
+         Debug\QuantumPlayer.obj
+         Debug\main.obj
+         Debug\Scene_Manager.obj
+         Debug\Shader_Manager.obj
+         Debug\Models_Manager.obj
+         Debug\Model.obj
+         Debug\Quad.obj
+         Debug\Triangle.obj
+         QChessVS.vcxproj -> C:\Users\drubr_000\Documents\Personal Projects\QChess\Debug\QChessVS.exe
+     1>Done Building Project "C:\Users\drubr_000\Documents\Personal Projects\QChess\QChessVS.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.58
